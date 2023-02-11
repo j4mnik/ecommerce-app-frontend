@@ -12,6 +12,7 @@ const Navbar = () => {
           <Link to="/" className="flex place-items-center">
             <img
               src={Logo}
+              alt="Logo image"
               className="h-6 sm:h-8 mr-2 justify-center justify-items-center"
             />
             <p className="font-bold text-lg text-gray-700 tracking-wide mx-2">
