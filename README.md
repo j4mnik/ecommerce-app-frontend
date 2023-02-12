@@ -1,6 +1,6 @@
 # Example app screenshots
 
-![](screenshots/cart-iphone12.png?raw=true)
+![](screenshots/cart-iphone-12.png?raw=true)
 ![](screenshots/productlist-ipadmini.png?raw=true)
 ![](screenshots/order-ipadmini.png?raw=true)
 
