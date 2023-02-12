@@ -1,5 +1,3 @@
-
-
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -73,6 +71,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 # Example app screenshots
 
-![](screenshots/cart-iphone12.png?raw=true){width=250}
-![](screenshots/productlist-ipadmini.png?raw=true){width=250}
-![](screenshots/order-ipadmini.png?raw=true){width=250}
+![](screenshots/cart-iphone-12.png?raw=true)
+![](screenshots/productlist-ipadmini.png?raw=true)
+![](screenshots/order-ipadmini.png?raw=true)
