@@ -1,8 +1,8 @@
 # Example app screenshots
 
-![](screenshots/cart-iphone-12.png?raw=true | width=100)
-![](screenshots/productlist-ipadmini.png?raw=true | width=100)
-![](screenshots/order-ipadmini.png?raw=true | width=100)
+![](screenshots/cart-iphone-12.png | width=100)
+![](screenshots/productlist-ipadmini.png | width=100)
+![](screenshots/order-ipadmini.png | width=100)
 
 # Getting Started with Create React App
 
