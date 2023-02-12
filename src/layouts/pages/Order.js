@@ -1,14 +1,13 @@
 import React from "react";
-import CartList from "../../components/CartList";
 
-const Cart = () => {
+const Order = () => {
   return (
     <div className="flex flex-col w-full">
       <div className="mx-4">
-        <CartList />
+        <p>Order</p>
       </div>
     </div>
   );
 };
 
-export default Cart;
+export default Order;

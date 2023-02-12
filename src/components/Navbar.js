@@ -1,10 +1,19 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 
 import Logo from "../assets/logo.png";
 import Cart from "../assets/cart.png";
 
 const Navbar = () => {
+  const [cartCount, setCartCount] = useState(0);
+
+  useEffect(() => {
+    const savedCart = sessionStorage.getItem("cart");
+    if (savedCart) {
+      setCartCount(JSON.parse(savedCart).length);
+    }
+  }, []);
+
   return (
     <div className="mb-24">
       <nav className="fixed flex px-2 sm:px-4 py-4 justify-between bg-white border-b border-gray-200 top-0 z-20 left-0 right-0">
@@ -19,12 +28,14 @@ const Navbar = () => {
               jamando
             </p>
           </Link>
-          <Link to="/" className="flex place-items-center">
+          <Link to="/cart" className="flex place-items-center">
             <img
               src={Cart}
               className="h-6 sm:h-8 mr-2 justify-center justify-items-center"
             />
-            <p className="font-semibold text-md text-gray-700 rounded-lg">0</p>
+            <p className="font-semibold text-md text-gray-700 rounded-lg">
+              ({cartCount})
+            </p>
           </Link>
         </div>
       </nav>

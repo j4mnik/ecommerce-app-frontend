@@ -1,7 +1,6 @@
-import Navbar from "../../components/Navbar";
+import React, { useState } from "react";
 import CategoryFilter from "../../components/CategoryFilter";
 import ProductList from "../../components/ProductList";
-import React, { useState } from "react";
 import SearchForm from "../../components/Search";
 
 function Products() {
@@ -15,8 +14,6 @@ function Products() {
     setSelectedCategory(category);
   };
   return (
-    <div>
-      <Navbar />
       <div className="flex flex-col w-full place-items-center justify-center ">
         <div className="mx-4 sm:mx-8 w-10/12">
           <SearchForm />
@@ -27,7 +24,6 @@ function Products() {
           <ProductList selectedCategory={selectedCategory} />
         </div>
       </div>
-    </div>
   );
 }
 

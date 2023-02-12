@@ -4,12 +4,12 @@ import ProductDetailPage from "./layouts/pages/ProductDetailsPage";
 import Products from "./layouts/pages/Products";
 import NoPage from "./layouts/pages/NoPage";
 import Cart from "./layouts/pages/Cart";
+import Navbar from "./components/Navbar";
 
 export default function App() {
-
-
   return (
     <BrowserRouter>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="products" element={<Products />} />
