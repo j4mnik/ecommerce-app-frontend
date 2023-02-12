@@ -20,7 +20,7 @@ const FeaturedCard = () => {
       <img
         src={FeaturedCardImage}
         alt="Featured card image"
-        className="rounded-lg w-full sm:h-auto sm:w-1/4  duration-300 "
+        className="rounded-lg w-full sm:h-auto md:w-1/2 lg:w-1/4 duration-300 "
       />
     </div>
   );
